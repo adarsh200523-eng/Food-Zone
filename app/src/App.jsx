@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import SearchResult from "./components/SearchResults/SearchResult";
 
-export const BASE_URL = "https://food-zone-cyx4.onrender.com/";
+export const BASE_URL = "https://food-zone-cyx4.onrender.com";
 
 const App = () => {
   const [data, setData] = useState(null);
